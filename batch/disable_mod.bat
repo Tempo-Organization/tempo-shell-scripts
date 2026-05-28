@@ -6,6 +6,6 @@ cd ../..
 
 echo Running tempo_cli disable_mod command
 
-uv run tempo_cli mod disable_mod --settings_json .tempo.json
+uv run tempo_cli mod disable_mod --config-file .tempo.json
 
 exit /b

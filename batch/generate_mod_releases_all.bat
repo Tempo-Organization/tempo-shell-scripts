@@ -12,6 +12,6 @@ set "output_dir=%CD%\Modding\mod_packaging\output"
 
 mkdir %output_dir%
 
-uv run tempo_cli mod generate_mod_releases_all --settings_json .tempo.json --base_files_directory %release_packaging_dir% --output_directory %output_dir%
+uv run tempo_cli mod generate_mod_releases_all --config-file .tempo.json --base_files_directory %release_packaging_dir% --output_directory %output_dir%
 
 exit /b

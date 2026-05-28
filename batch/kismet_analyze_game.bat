@@ -12,7 +12,7 @@ if exist "%CD%\Modding\output.jmap" (
 )
 
 uv run tempo_cli run kismet_analyze_directory ^
-    --settings_json .tempo.json ^
+    --config-file .tempo.json ^
     --directory "%CD%\Modding" ^
     %MAPPINGS_ARG% ^
     --open

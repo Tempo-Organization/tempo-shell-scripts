@@ -4,6 +4,6 @@ cd /d "%~dp0"
 
 cd ../..
 
-uv run tempo_cli close engine --settings_json .tempo.json
+uv run tempo_cli close engine --config-file .tempo.json
 
 exit /b
